@@ -28,7 +28,7 @@ github_username:  ywamsendai
 
 # Build settings
 markdown: kramdown
-theme: minima
+remote-theme: volny/creative-theme-jekyll
 plugins:
   - jekyll-feed
 
