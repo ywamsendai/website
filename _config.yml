@@ -28,7 +28,7 @@ github_username:  ywamsendai
 
 # Build settings
 markdown: kramdown
-remote-theme: volny/creative-theme-jekyll
+remote_theme: volny/creative-theme-jekyll
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
