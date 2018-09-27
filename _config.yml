@@ -28,10 +28,9 @@ github_username:  ywamsendai
 
 # Build settings
 markdown: kramdown
-remote_theme: volny/creative-theme-jekyll
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -44,5 +43,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-theme: jekyll-theme-cayman
