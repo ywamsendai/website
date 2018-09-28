@@ -13,33 +13,30 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: YWAM Sendai Website (Staging)
-email: info@ywamsendai.org
+title: YWAM Sendai
+email: ""
 description: >- # this means to ignore newlines until "baseurl:"
-  With a population of over a million people, Sendai is the largest city 
-  in North-East Japan. We desire to see a community of people established 
-  in this city that will love God and make Him known to the 99% of the 
-  population that don’t yet know Him. Please pray for us, partner with us 
-  or even consider joining us!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://staging.ywamsendai.org/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ywamsendai
-github_username:  ywamsendai
+  A new YWAM community in North-East Japan
+#baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://staging.ywamsendai.org" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: jekyllrb
+#github_username:  jekyll
+
+repository: "ywamsendai/website"
 
 # Build settings
-markdown: kramdown
-theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+
+# A list of the pages to display in the navigation bar
+header_pages:
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - update_boostrap.sh

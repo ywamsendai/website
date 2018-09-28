@@ -1,2 +1,0 @@
-# Redirect default Netlify subdomain to primary domain
-https://confident-wright-77b30f.netlify.com/* https://staging.ywamsendai.org/:splat 301!
