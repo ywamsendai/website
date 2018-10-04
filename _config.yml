@@ -11,6 +11,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.ywamsendai.org" # the base hostname & protocol for your site
 theme: minima
 medium: https://medium.com/ywamsendai/
+join: https://www.ywamsendai.org/join
 riot: https://riot.im/app/#/group/+ywamsendai:matrix.org
 twitter_username: ywamsendai
 github_username:  ywamsendai

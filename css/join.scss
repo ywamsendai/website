@@ -21,7 +21,7 @@
 }
 
 body{
-  background-color: #2C1A54;
+  background-color: #005005;
 }
 
 h3 {
@@ -37,7 +37,7 @@ h2{
   font-weight: 900;
   color: white;
   text-align: left;
-  @include boxShadow(#1fefff, 1000);
+  @include boxShadow(#1565c0, 1000);
 
   @media (max-width: 650px) {
     font-size: 3rem;
@@ -46,12 +46,12 @@ h2{
 
 h2:nth-child(2){
   color: white;
-  @include boxShadow(#44d4bf, 1000);
+  @include boxShadow(#60ad5e, 1000);
 }
 
 h2:last-child{
   color: white;
-  @include boxShadow(#fdb1b9, 1000)
+  @include boxShadow(#d02f2f, 1000)
 }
 
 p {
@@ -102,7 +102,7 @@ p {
 }
 
 .color-green {
-  color: #44d4bf;
+  color: #AAD75B;
 }
 
 .color-grey {
@@ -119,5 +119,5 @@ p {
 }
 
 #footer {
-  background-color: #2C1A54;
+  background-color: #005005;
 }
