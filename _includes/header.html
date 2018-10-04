@@ -1,26 +1,46 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container">
-    <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+<!-- Header -->
+<header id="header">
+    <a href="#hero" class="skip-link">Skip to main content</a>
 
-    {%- assign page_paths = site.header_pages -%}
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        {%- for path in page_paths -%}
-          {%- assign my_page = site.pages | where: "path", path | first -%}
-          {%- if my_page.title -%}
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-color">
+      <a class="navbar-brand" href="#"><img src="/assets/ywamsendai-typelogo-white.svg" width="150px" height="auto" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            <a class="nav-link" href="#whyjapan">Why Japan</a>
           </li>
-          {%- endif -%}
-        {% endfor -%}
-        <li class="nav-item">
-          <a class="nav-link" href="{{ site.github.repository_url }}">Fork me on Github</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ministries">Ministries</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ywam">YWAM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://wiki.ywamsendai.org">Wiki</a>
+          </li>
+<!--
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://mvp.giveth.io">Dapp-Preview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://dapp.giveth.io">Milestone-Tracker</a>
+          </li>
+         <li class="nav-item">
+            <a class="nav-link" href="/admin/index.html">Blog</a>
+          </li>
+-->
+        </ul>
+      <a class="btn btn-secondary" href="https://www.ywamsendai.org/join">Join Us</a>
+      </div>
+  </nav>
+</header>

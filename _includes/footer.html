@@ -1,40 +1,49 @@
+<footer id="footer" class="container-fluid background-black">
+  <ul class="col d-flex justify-content-center hide-list-style flex-wrap">
 
-<div class="py-5 border-top">
-  <div class="container">
+    {% if site.medium %}
+      <li>
+        <a href="{{ site.medium }}"><i class="fab fa-medium fa-2x"></i></a>
+      </li>
+    {% endif %}
 
-    <p class="h5 mb-3">{{ site.title | escape }}</p>
+    {% if site.join %}
+      <li>
+        <a href="{{ site.join }}"><i class="far fa-comments fa-2x"></i></a>
+      </li>
+    {% endif %}
 
-    <div class="row">
+    {% if site.twitter_username %}
+      <li>
+        <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fab fa-twitter fa-2x"></i></a>
+      </li>
+    {% endif %}
 
-      <div class="col-sm">
-        <ul class="list-unstyled">
-          <li>
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-          </li>
-          {%- if site.email -%}
-            <li>
-              <a href="mailto:{{ site.email }}">
-                {{ site.email }}
-              </a>
-            </li>
-          {%- endif -%}
-        </ul>
-      </div>
+    {% if site.github_username %}
+      <li>
+          <a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github fa-2x"></i></a>
+      </li>
+    {% endif %}
 
+    {% if site.reddit %}
+      <li>
+          <a href="https://reddit.com/r/{{ site.reddit }}"><i class="fab fa-reddit fa-2x"></i></a>
+      </li>
+    {% endif %}
 
-      <div class="col-sm text-right">
-        <p>{{- site.description | escape -}}</p>
+    {% if site.facebook_username %}
+      <li>
+          <a href="https://facebook.com/{{ site.facebook_username }}"><i class="fab fa-facebook fa-2x"></i></a>
+      </li>
+    {% endif %}
 
-        <p>
-          <a href="https://nicolas-van.github.io/bootstrap-4-github-pages/">Powered by Bootstrap 4 Github Pages</a>
-        </p>
-      </div>
+    {% if site.youtube %}
+      <li>
+          <a href="{{ site.youtube }}"><i class="fab fa-youtube fa-2x"></i></a>
+      </li>
+    {% endif %}
 
-    </div>
-
-  </div>
-</div>
+  </ul>
+  <!-- <span>Support us with your Donation: <a class="donation-link" href="https://giveth.io/donate/">revolution.eth</a></span> -->
+  <h6 class="color-white padding-top">2018 - No Rights Reserved - YWAM Sendai</h6>
+</footer>
