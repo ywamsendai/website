@@ -8,10 +8,10 @@ owner: YWAM Sendai # or company name
 first_published: 2018 # if migrating another site, the year of your first publish
 email: info@ywamsendai.org
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.ywamsendai.org" # the base hostname & protocol for your site
+url: "https://ywamsendai.org" # the base hostname & protocol for your site
 theme: minima
 medium: https://medium.com/ywamsendai/
-join: https://www.ywamsendai.org/join
+join: https://ywamsendai.org/join
 riot: https://riot.im/app/#/group/+ywamsendai:matrix.org
 twitter_username: ywamsendai
 github_username:  ywamsendai
