@@ -29,3 +29,6 @@ Please refer to the official Jekyll Documentation for installing Jekyll:
 ## Technologies used
 * Created from ```jekyll new```
 * added Bootstrap 4 via CDN
+
+
+This site was created with the giveth.io website as a base, because its pretty awesome and I love what they are doing in general! Their decentralised model of functioning and making the world better is something we can learn from.
